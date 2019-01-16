@@ -158,17 +158,36 @@ body {
 }
 
 .section-formatting() {
+  padding-top: 2rem;
   margin: 20px 0;
   background: @backblue;
   border-radius: 1.05rem;
-  h2 {
-    font-size: 3rem;
+  p {
+    padding: 1rem 7rem 0 7rem;
+    line-height: 1.4;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+  .red-para {
+    margin-top: 2rem;
   }
 }
 
 // general //
 .section-title {
-  .center;
+  margin-left: 7rem;
+}
+h1 {
+  font-size: 4rem;
+}
+h2 {
+  font-size: 3rem;
+}
+h3 {
+  font-size: 2rem;
+}
+em {
+  font-weight: 600;
 }
 
 // html //
@@ -181,16 +200,16 @@ html {
 
 // container
 .container {
-  border: @rtb;
   font: @mont16;
+  color: rgb(0, 98, 128);
   margin: 0 auto;
   max-width: 800px;
 }
 
 // header //
 header {
-  border: @rtb;
   .section-formatting;
+  padding-top: 0;
   nav {
     display: flex;
     justify-content: space-around;
@@ -209,40 +228,51 @@ header {
 
 // main banner //
 .main-banner {
-  border: @rtb;
   .section-formatting;
-  .center;
-  .portrait {
-    width: 50%;
+  h1 {
+    margin-left: 7rem;
+  }
+  h3 {
+    margin-left: 25rem;
+  }
+  .portrait-div {
+    .center;
+    .portrait {
+      width: 50%;
+    }
   }
 }
 
 // Intro //
 .intro {
-  border: @rtb;
   .section-formatting;
 }
 
 // Skills //
 .skills {
-  border: @rtb;
   .section-formatting;
 }
 
 // Work History //
 .work-history {
-  border: @rtb;
   .section-formatting;
 }
 
 // Contact //
 .contact {
-  border: @rtb;
   .section-formatting;
+  address {
+    padding: 0.8rem 0 0 7rem;
+    line-height: 1.7;
+    font-size: 1.75rem;
+  }
 }
 
 // Footer //
 footer {
-  border: @rtb;
   .section-formatting;
+  .center;
+  p {
+    margin-bottom: 3rem;
+  }
 }

@@ -135,27 +135,44 @@ body {
   height: 100%;
 }
 .section-title {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  margin-left: 7rem;
+}
+h1 {
+  font-size: 4rem;
+}
+h2 {
+  font-size: 3rem;
+}
+h3 {
+  font-size: 2rem;
+}
+em {
+  font-weight: 600;
 }
 html {
   font-size: 62.5%;
 }
 .container {
-  border: 2px dashed red;
   font: 1.6rem "Montserrat", sans-serif;
+  color: #006280;
   margin: 0 auto;
   max-width: 800px;
 }
 header {
-  border: 2px dashed red;
+  padding-top: 2rem;
   margin: 20px 0;
   background: #e6f9ff;
   border-radius: 1.05rem;
+  padding-top: 0;
 }
-header h2 {
-  font-size: 3rem;
+header p {
+  padding: 1rem 7rem 0 7rem;
+  line-height: 1.4;
+  text-align: justify;
+  text-justify: inter-word;
+}
+header .red-para {
+  margin-top: 2rem;
 }
 header nav {
   display: flex;
@@ -172,7 +189,101 @@ header nav a:hover {
   background: #ccf3ff;
 }
 .main-banner {
-  border: 2px dashed red;
+  padding-top: 2rem;
+  margin: 20px 0;
+  background: #e6f9ff;
+  border-radius: 1.05rem;
+}
+.main-banner p {
+  padding: 1rem 7rem 0 7rem;
+  line-height: 1.4;
+  text-align: justify;
+  text-justify: inter-word;
+}
+.main-banner .red-para {
+  margin-top: 2rem;
+}
+.main-banner h1 {
+  margin-left: 7rem;
+}
+.main-banner h3 {
+  margin-left: 25rem;
+}
+.main-banner .portrait-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-banner .portrait-div .portrait {
+  width: 50%;
+}
+.intro {
+  padding-top: 2rem;
+  margin: 20px 0;
+  background: #e6f9ff;
+  border-radius: 1.05rem;
+}
+.intro p {
+  padding: 1rem 7rem 0 7rem;
+  line-height: 1.4;
+  text-align: justify;
+  text-justify: inter-word;
+}
+.intro .red-para {
+  margin-top: 2rem;
+}
+.skills {
+  padding-top: 2rem;
+  margin: 20px 0;
+  background: #e6f9ff;
+  border-radius: 1.05rem;
+}
+.skills p {
+  padding: 1rem 7rem 0 7rem;
+  line-height: 1.4;
+  text-align: justify;
+  text-justify: inter-word;
+}
+.skills .red-para {
+  margin-top: 2rem;
+}
+.work-history {
+  padding-top: 2rem;
+  margin: 20px 0;
+  background: #e6f9ff;
+  border-radius: 1.05rem;
+}
+.work-history p {
+  padding: 1rem 7rem 0 7rem;
+  line-height: 1.4;
+  text-align: justify;
+  text-justify: inter-word;
+}
+.work-history .red-para {
+  margin-top: 2rem;
+}
+.contact {
+  padding-top: 2rem;
+  margin: 20px 0;
+  background: #e6f9ff;
+  border-radius: 1.05rem;
+}
+.contact p {
+  padding: 1rem 7rem 0 7rem;
+  line-height: 1.4;
+  text-align: justify;
+  text-justify: inter-word;
+}
+.contact .red-para {
+  margin-top: 2rem;
+}
+.contact address {
+  padding: 0.8rem 0 0 7rem;
+  line-height: 1.7;
+  font-size: 1.75rem;
+}
+footer {
+  padding-top: 2rem;
   margin: 20px 0;
   background: #e6f9ff;
   border-radius: 1.05rem;
@@ -180,54 +291,15 @@ header nav a:hover {
   justify-content: center;
   align-items: center;
 }
-.main-banner h2 {
-  font-size: 3rem;
+footer p {
+  padding: 1rem 7rem 0 7rem;
+  line-height: 1.4;
+  text-align: justify;
+  text-justify: inter-word;
 }
-.main-banner .portrait {
-  width: 50%;
+footer .red-para {
+  margin-top: 2rem;
 }
-.intro {
-  border: 2px dashed red;
-  margin: 20px 0;
-  background: #e6f9ff;
-  border-radius: 1.05rem;
-}
-.intro h2 {
-  font-size: 3rem;
-}
-.skills {
-  border: 2px dashed red;
-  margin: 20px 0;
-  background: #e6f9ff;
-  border-radius: 1.05rem;
-}
-.skills h2 {
-  font-size: 3rem;
-}
-.work-history {
-  border: 2px dashed red;
-  margin: 20px 0;
-  background: #e6f9ff;
-  border-radius: 1.05rem;
-}
-.work-history h2 {
-  font-size: 3rem;
-}
-.contact {
-  border: 2px dashed red;
-  margin: 20px 0;
-  background: #e6f9ff;
-  border-radius: 1.05rem;
-}
-.contact h2 {
-  font-size: 3rem;
-}
-footer {
-  border: 2px dashed red;
-  margin: 20px 0;
-  background: #e6f9ff;
-  border-radius: 1.05rem;
-}
-footer h2 {
-  font-size: 3rem;
+footer p {
+  margin-bottom: 3rem;
 }

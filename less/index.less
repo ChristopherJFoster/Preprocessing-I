@@ -146,7 +146,9 @@ body {
 
 @mont16: 1.6rem "Montserrat", sans-serif;
 
-@lightblue: #e6ffff;
+@backblue: rgb(230, 249, 255);
+@navblue: rgb(245, 255, 255);
+@hoverblue: rgb(204, 243, 255);
 
 // mixins //
 .center() {
@@ -155,19 +157,16 @@ body {
   align-items: center;
 }
 
-.section-formatting {
+.section-formatting() {
   margin: 20px 0;
-  background: @lightblue;
+  background: @backblue;
+  border-radius: 1.05rem;
   h2 {
     font-size: 3rem;
   }
 }
 
 // general //
-.red-para-div {
-  display: block;
-}
-
 .section-title {
   .center;
 }
@@ -192,6 +191,20 @@ html {
 header {
   border: @rtb;
   .section-formatting;
+  nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    a {
+      text-decoration: none;
+      background: @navblue;
+      border-radius: 0.6rem;
+      padding: 0.8rem 1.8rem;
+    }
+    a:hover {
+      background: @hoverblue;
+    }
+  }
 }
 
 // main banner //
@@ -199,10 +212,9 @@ header {
   border: @rtb;
   .section-formatting;
   .center;
-}
-
-.portrait {
-  width: 50%;
+  .portrait {
+    width: 50%;
+  }
 }
 
 // Intro //

@@ -144,13 +144,32 @@ body {
 // variables //
 @rtb: 2px dashed red; // red test border
 
-@basic-font: 1.6rem "Montserrat", sans-serif;
+@mont16: 1.6rem "Montserrat", sans-serif;
+
+@lightblue: #e6ffff;
 
 // mixins //
 .center() {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.section-formatting {
+  margin: 20px 0;
+  background: @lightblue;
+  h2 {
+    font-size: 3rem;
+  }
+}
+
+// general //
+.red-para-div {
+  display: block;
+}
+
+.section-title {
+  .center;
 }
 
 // html //
@@ -164,7 +183,7 @@ html {
 // container
 .container {
   border: @rtb;
-  font: @basic-font;
+  font: @mont16;
   margin: 0 auto;
   max-width: 800px;
 }
@@ -172,11 +191,13 @@ html {
 // header //
 header {
   border: @rtb;
+  .section-formatting;
 }
 
 // main banner //
 .main-banner {
   border: @rtb;
+  .section-formatting;
   .center;
 }
 
@@ -187,21 +208,29 @@ header {
 // Intro //
 .intro {
   border: @rtb;
+  .section-formatting;
 }
 
 // Skills //
 .skills {
   border: @rtb;
+  .section-formatting;
 }
 
 // Work History //
 .work-history {
   border: @rtb;
+  .section-formatting;
 }
 
 // Contact //
 .contact {
   border: @rtb;
+  .section-formatting;
 }
 
 // Footer //
+footer {
+  border: @rtb;
+  .section-formatting;
+}

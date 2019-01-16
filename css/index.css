@@ -134,6 +134,21 @@ html,
 body {
   height: 100%;
 }
+.section-formatting {
+  margin: 20px 0;
+  background: #e6ffff;
+}
+.section-formatting h2 {
+  font-size: 3rem;
+}
+.red-para-div {
+  display: block;
+}
+.section-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 html {
   font-size: 62.5%;
 }
@@ -145,25 +160,63 @@ html {
 }
 header {
   border: 2px dashed red;
+  margin: 20px 0;
+  background: #e6ffff;
+}
+header h2 {
+  font-size: 3rem;
 }
 .main-banner {
   border: 2px dashed red;
+  margin: 20px 0;
+  background: #e6ffff;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.main-banner h2 {
+  font-size: 3rem;
 }
 .portrait {
   width: 50%;
 }
 .intro {
   border: 2px dashed red;
+  margin: 20px 0;
+  background: #e6ffff;
+}
+.intro h2 {
+  font-size: 3rem;
 }
 .skills {
   border: 2px dashed red;
+  margin: 20px 0;
+  background: #e6ffff;
+}
+.skills h2 {
+  font-size: 3rem;
 }
 .work-history {
   border: 2px dashed red;
+  margin: 20px 0;
+  background: #e6ffff;
+}
+.work-history h2 {
+  font-size: 3rem;
 }
 .contact {
   border: 2px dashed red;
+  margin: 20px 0;
+  background: #e6ffff;
+}
+.contact h2 {
+  font-size: 3rem;
+}
+footer {
+  border: 2px dashed red;
+  margin: 20px 0;
+  background: #e6ffff;
+}
+footer h2 {
+  font-size: 3rem;
 }

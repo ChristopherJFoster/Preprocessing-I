@@ -139,45 +139,44 @@ body {
   height: 100%;
 }
 
-// my code here
+// MY CODE BELOW HERE //
 
-// variables
+// variables //
+@rtb: 2px dashed red; // red test border
 
-.rtb() {
-  border: 2px dashed red;
-} // Red Test Border
+@basic-font: 1.6rem "Montserrat", sans-serif;
 
+// mixins //
 .center() {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-// html
+// html //
 html {
   font-size: 62.5%;
 }
 
-// body
-// probably nothing here
+// body //
+// probably nothing here...
 
 // container
 .container {
-  .rtb;
+  border: @rtb;
+  font: @basic-font;
   margin: 0 auto;
   max-width: 800px;
-  @media (max-width: 500px) {
-  }
 }
 
-// header
+// header //
 header {
-  .rtb;
+  border: @rtb;
 }
 
-// main banner
+// main banner //
 .main-banner {
-  .rtb;
+  border: @rtb;
   .center;
 }
 
@@ -185,22 +184,24 @@ header {
   width: 50%;
 }
 
-// Intro
+// Intro //
 .intro {
-  .rtb;
+  border: @rtb;
 }
 
-// Skills
+// Skills //
 .skills {
-  .rtb;
+  border: @rtb;
 }
 
-// Work History
+// Work History //
 .work-history {
-  .rtb;
+  border: @rtb;
 }
 
-// Contact
+// Contact //
 .contact {
-  .rtb;
+  border: @rtb;
 }
+
+// Footer //

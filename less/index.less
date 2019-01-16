@@ -157,7 +157,7 @@ body {
   align-items: center;
 }
 
-.section-formatting() {
+.section-format() {
   padding-top: 2rem;
   margin: 20px 0;
   background: @backblue;
@@ -173,18 +173,28 @@ body {
   }
 }
 
+.list-format {
+  ul {
+    margin: 1rem 7rem 0 9rem;
+    list-style-type: circle;
+    li {
+      padding: 0.4rem;
+    }
+  }
+}
+
 // general //
 .section-title {
   margin-left: 7rem;
 }
 h1 {
-  font-size: 4rem;
+  font-size: 4.5rem;
 }
 h2 {
   font-size: 3rem;
 }
 h3 {
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 em {
   font-weight: 600;
@@ -208,7 +218,7 @@ html {
 
 // header //
 header {
-  .section-formatting;
+  .section-format;
   padding-top: 0;
   nav {
     display: flex;
@@ -228,12 +238,13 @@ header {
 
 // main banner //
 .main-banner {
-  .section-formatting;
+  .section-format;
   h1 {
     margin-left: 7rem;
   }
   h3 {
-    margin-left: 25rem;
+    margin-left: 7rem;
+    padding: 1rem 0;
   }
   .portrait-div {
     .center;
@@ -245,22 +256,24 @@ header {
 
 // Intro //
 .intro {
-  .section-formatting;
+  .section-format;
 }
 
 // Skills //
 .skills {
-  .section-formatting;
+  .section-format;
+  .list-format;
 }
 
 // Work History //
 .work-history {
-  .section-formatting;
+  .section-format;
+  .list-format;
 }
 
 // Contact //
 .contact {
-  .section-formatting;
+  .section-format;
   address {
     padding: 0.8rem 0 0 7rem;
     line-height: 1.7;
@@ -270,7 +283,7 @@ header {
 
 // Footer //
 footer {
-  .section-formatting;
+  .section-format;
   .center;
   p {
     margin-bottom: 3rem;

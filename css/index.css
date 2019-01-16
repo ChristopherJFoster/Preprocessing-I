@@ -134,17 +134,24 @@ html,
 body {
   height: 100%;
 }
+.list-format ul {
+  margin: 1rem 7rem 0 9rem;
+  list-style-type: circle;
+}
+.list-format ul li {
+  padding: 0.4rem;
+}
 .section-title {
   margin-left: 7rem;
 }
 h1 {
-  font-size: 4rem;
+  font-size: 4.5rem;
 }
 h2 {
   font-size: 3rem;
 }
 h3 {
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 em {
   font-weight: 600;
@@ -207,7 +214,8 @@ header nav a:hover {
   margin-left: 7rem;
 }
 .main-banner h3 {
-  margin-left: 25rem;
+  margin-left: 7rem;
+  padding: 1rem 0;
 }
 .main-banner .portrait-div {
   display: flex;
@@ -247,6 +255,13 @@ header nav a:hover {
 .skills .red-para {
   margin-top: 2rem;
 }
+.skills ul {
+  margin: 1rem 7rem 0 9rem;
+  list-style-type: circle;
+}
+.skills ul li {
+  padding: 0.4rem;
+}
 .work-history {
   padding-top: 2rem;
   margin: 20px 0;
@@ -261,6 +276,13 @@ header nav a:hover {
 }
 .work-history .red-para {
   margin-top: 2rem;
+}
+.work-history ul {
+  margin: 1rem 7rem 0 9rem;
+  list-style-type: circle;
+}
+.work-history ul li {
+  padding: 0.4rem;
 }
 .contact {
   padding-top: 2rem;

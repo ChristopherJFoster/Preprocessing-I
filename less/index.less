@@ -184,9 +184,6 @@ body {
 }
 
 // general //
-.section-title {
-  margin-left: 7rem;
-}
 h1 {
   font-size: 4.5rem;
 }
@@ -217,78 +214,82 @@ html {
   @media (max-width: 500px) {
     width: 450px;
   }
-}
 
-// header //
-header {
-  .section-format;
-  padding-top: 0;
-  nav {
-    display: flex;
-    justify-content: space-around;
-    padding: 1rem;
-    a {
-      text-decoration: none;
-      background: @navblue;
-      border-radius: 0.6rem;
-      padding: 0.8rem 1.8rem;
-    }
-    a:hover {
-      background: @hoverblue;
-    }
-  }
-}
-
-// main banner //
-.main-banner {
-  .section-format;
-  h1 {
+  .section-title {
     margin-left: 7rem;
   }
-  h3 {
-    margin-left: 7rem;
-    padding: 1rem 0;
+
+  // header //
+  header {
+    .section-format;
+    padding-top: 0;
+    nav {
+      display: flex;
+      justify-content: space-around;
+      padding: 1rem;
+      a {
+        text-decoration: none;
+        background: @navblue;
+        border-radius: 0.6rem;
+        padding: 0.8rem 1.8rem;
+      }
+      a:hover {
+        background: @hoverblue;
+      }
+    }
   }
-  .portrait-div {
+
+  // main banner //
+  .main-banner {
+    .section-format;
+    h1 {
+      margin-left: 7rem;
+    }
+    h3 {
+      margin-left: 7rem;
+      padding: 1rem 0;
+    }
+    .portrait-div {
+      .center;
+      .portrait {
+        width: 50%;
+      }
+    }
+  }
+
+  // Intro //
+  .intro {
+    .section-format;
+  }
+
+  // Skills //
+  .skills {
+    .section-format;
+    .list-format;
+  }
+
+  // Work History //
+  .work-history {
+    .section-format;
+    .list-format;
+  }
+
+  // Contact //
+  .contact {
+    .section-format;
+    address {
+      padding: 0.8rem 0 0 7rem;
+      line-height: 1.7;
+      font-size: 1.75rem;
+    }
+  }
+
+  // Footer //
+  footer {
+    .section-format;
     .center;
-    .portrait {
-      width: 50%;
+    p {
+      margin-bottom: 3rem;
     }
-  }
-}
-
-// Intro //
-.intro {
-  .section-format;
-}
-
-// Skills //
-.skills {
-  .section-format;
-  .list-format;
-}
-
-// Work History //
-.work-history {
-  .section-format;
-  .list-format;
-}
-
-// Contact //
-.contact {
-  .section-format;
-  address {
-    padding: 0.8rem 0 0 7rem;
-    line-height: 1.7;
-    font-size: 1.75rem;
-  }
-}
-
-// Footer //
-footer {
-  .section-format;
-  .center;
-  p {
-    margin-bottom: 3rem;
   }
 }

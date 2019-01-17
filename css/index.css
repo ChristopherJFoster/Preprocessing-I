@@ -141,9 +141,6 @@ body {
 .list-format ul li {
   padding: 0.4rem;
 }
-.section-title {
-  margin-left: 7rem;
-}
 h1 {
   font-size: 4.5rem;
 }
@@ -170,146 +167,149 @@ html {
     width: 450px;
   }
 }
-header {
+.container .section-title {
+  margin-left: 7rem;
+}
+.container header {
   padding-top: 2rem;
   margin: 20px 0;
   background: #e6f9ff;
   border-radius: 1.05rem;
   padding-top: 0;
 }
-header p {
+.container header p {
   padding: 1rem 7rem 0 7rem;
   line-height: 1.4;
   text-align: justify;
   text-justify: inter-word;
 }
-header .red-para {
+.container header .red-para {
   margin-top: 2rem;
 }
-header nav {
+.container header nav {
   display: flex;
   justify-content: space-around;
   padding: 1rem;
 }
-header nav a {
+.container header nav a {
   text-decoration: none;
   background: #f5ffff;
   border-radius: 0.6rem;
   padding: 0.8rem 1.8rem;
 }
-header nav a:hover {
+.container header nav a:hover {
   background: #ccf3ff;
 }
-.main-banner {
+.container .main-banner {
   padding-top: 2rem;
   margin: 20px 0;
   background: #e6f9ff;
   border-radius: 1.05rem;
 }
-.main-banner p {
+.container .main-banner p {
   padding: 1rem 7rem 0 7rem;
   line-height: 1.4;
   text-align: justify;
   text-justify: inter-word;
 }
-.main-banner .red-para {
+.container .main-banner .red-para {
   margin-top: 2rem;
 }
-.main-banner h1 {
+.container .main-banner h1 {
   margin-left: 7rem;
 }
-.main-banner h3 {
+.container .main-banner h3 {
   margin-left: 7rem;
   padding: 1rem 0;
 }
-.main-banner .portrait-div {
+.container .main-banner .portrait-div {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.main-banner .portrait-div .portrait {
+.container .main-banner .portrait-div .portrait {
   width: 50%;
 }
-.intro {
+.container .intro {
   padding-top: 2rem;
   margin: 20px 0;
   background: #e6f9ff;
   border-radius: 1.05rem;
 }
-.intro p {
+.container .intro p {
   padding: 1rem 7rem 0 7rem;
   line-height: 1.4;
   text-align: justify;
   text-justify: inter-word;
 }
-.intro .red-para {
+.container .intro .red-para {
   margin-top: 2rem;
 }
-.skills {
+.container .skills {
   padding-top: 2rem;
   margin: 20px 0;
   background: #e6f9ff;
   border-radius: 1.05rem;
 }
-.skills p {
+.container .skills p {
   padding: 1rem 7rem 0 7rem;
   line-height: 1.4;
   text-align: justify;
   text-justify: inter-word;
 }
-.skills .red-para {
+.container .skills .red-para {
   margin-top: 2rem;
 }
-.skills ul {
+.container .skills ul {
   margin: 1rem 7rem 0 9rem;
   list-style-type: circle;
 }
-.skills ul li {
+.container .skills ul li {
   padding: 0.4rem;
 }
-.work-history {
+.container .work-history {
   padding-top: 2rem;
   margin: 20px 0;
   background: #e6f9ff;
   border-radius: 1.05rem;
 }
-.work-history p {
+.container .work-history p {
   padding: 1rem 7rem 0 7rem;
   line-height: 1.4;
   text-align: justify;
   text-justify: inter-word;
 }
-.work-history .red-para {
+.container .work-history .red-para {
   margin-top: 2rem;
 }
-.work-history ul {
+.container .work-history ul {
   margin: 1rem 7rem 0 9rem;
   list-style-type: circle;
 }
-.work-history ul li {
+.container .work-history ul li {
   padding: 0.4rem;
 }
-.contact {
+.container .contact {
   padding-top: 2rem;
   margin: 20px 0;
   background: #e6f9ff;
   border-radius: 1.05rem;
 }
-.contact p {
+.container .contact p {
   padding: 1rem 7rem 0 7rem;
   line-height: 1.4;
   text-align: justify;
   text-justify: inter-word;
 }
-.contact .red-para {
+.container .contact .red-para {
   margin-top: 2rem;
 }
-.contact address {
+.container .contact address {
   padding: 0.8rem 0 0 7rem;
   line-height: 1.7;
   font-size: 1.75rem;
 }
-footer {
+.container footer {
   padding-top: 2rem;
   margin: 20px 0;
   background: #e6f9ff;
@@ -318,15 +318,15 @@ footer {
   justify-content: center;
   align-items: center;
 }
-footer p {
+.container footer p {
   padding: 1rem 7rem 0 7rem;
   line-height: 1.4;
   text-align: justify;
   text-justify: inter-word;
 }
-footer .red-para {
+.container footer .red-para {
   margin-top: 2rem;
 }
-footer p {
+.container footer p {
   margin-bottom: 3rem;
 }

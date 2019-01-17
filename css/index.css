@@ -186,12 +186,12 @@ html {
 }
 .container header nav a {
   text-decoration: none;
-  background: #f5ffff;
+  background: #f4fcff;
   border-radius: 0.6rem;
   padding: 0.8rem 1.5rem;
 }
 .container header nav a:hover {
-  background: #ccf3ff;
+  background: #d4f5ff;
 }
 .container .main-banner {
   padding-top: 6rem;
